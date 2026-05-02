@@ -2,6 +2,9 @@ package com.example.expense_tracker1;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ExpenseService {
 
     private final ExpenseRepository repo;
